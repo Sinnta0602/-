@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -28,7 +28,7 @@ main {
   padding: 10px;
   position: relative;
   background-color: #eee;
-  margin: 0 auto 20px auto;
+  margin: 0 15px 0 15px;
 }
 
 .step-box:last-child {
@@ -80,6 +80,7 @@ footer {
 @media screen and (max-width: 768px) {
   .step-box {
     width: 90%;
+    margin: auto auto 20px auto;
   }
   main {
     width: 100%;
